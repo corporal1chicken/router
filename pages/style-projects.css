@@ -24,7 +24,7 @@ body{
 
 .sidebar{
     position: fixed;
-    margin-top: 4.5rem;
+    margin-top: 1rem;
     margin-left: 2rem;
 }
 
@@ -38,6 +38,36 @@ body{
     width: 100px;
     height: 25px;
     font-size: 15px;
+}
+
+.yt-btn{
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+.gh-btn{
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(162, 0, 255);
+}
+
+.it-btn{
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .header{
@@ -82,9 +112,26 @@ body{
     transition: 0.2s ease;
 }
 
+.back-btn{
+    background: none;
+    color: white;
+    height: 30px;
+    width: 300px;
+    border: 3px solid rgb(121, 120, 120);
+    border-radius: 8px;
+    font-size: 14px;
+    margin-top: 4.5rem;
+    transition: 0.2s ease;
+}
+
 .contents-btn:hover{
     width: 320px;
     border: 3px solid rgb(0, 255, 89);
+}
+
+.back-btn:hover{
+    width: 320px;
+    border: 3px solid #6600ff;
 }
 
 .entries{
