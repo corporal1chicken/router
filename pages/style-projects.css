@@ -35,35 +35,32 @@ body{
 }
 
 .link-btn{
-    width: 100px;
-    height: 25px;
+    width: 125px;
+    height: 35px;
     font-size: 15px;
+    transition: 0.2s ease;
+    font-weight: bold;
 }
 
-.yt-btn{
-    width: 130px;
-    height: 30px;
-    font-size: 15px;
+.link-btn:hover{
+    width: 155px;
+}
+
+.link-btn:is(.yt-btn){
     border: 1px solid white;
     border-radius: 5px;
     color: white;
     background-color: red;
 }
 
-.gh-btn{
-    width: 130px;
-    height: 30px;
-    font-size: 15px;
+.link-btn:is(.gh-btn){
     border: 1px solid white;
     border-radius: 5px;
     color: white;
     background-color: rgb(162, 0, 255);
 }
 
-.it-btn{
-    width: 130px;
-    height: 30px;
-    font-size: 15px;
+.link-btn:is(.it-btn){
     border: 1px solid white;
     border-radius: 5px;
     color: rgb(0, 0, 0);

@@ -49,28 +49,24 @@
                 <p>Rock Paper Scissors was made purely for learning Godot. Egg Game was made to add stuff I didn’t/couldn’t to RPS. Dispatch was supposed to be a proper game, but the scope exploded. I took a few weeks off Godot, and now I’m back with a different game. This one is different, because it’s 3D. In the few weeks off, I watched a ton of 3D tutorials and experimented a bit. This game will be nothing big, but finished and polished. I already know blender somewhat, I can make low poly which is good enough for me. During the 3 projects I tried not to use tutorials, but for this one I definitely plan to. Hopefully the scope is small enough to where I can actually finish it. Don’t ask me about the name, I don’t know what February 2026 me was thinking. The absolute core idea and goal is to make something finished. Something that can be played for 5 minutes and then you get an end screen. That's it. Project was started on the 15/02/26.</p>
             </div>
 
-
             <div class="links" id="section-0">
-                <a href="https://www.youtube.com/playlist?list=PLWUHEaMTtDoHS7ipke7ca7oxRGoZvP9HI"><button class="yt-btn">(v1) YouTube</button></a>
-                <a href=""><button class="yt-btn">(v2) YouTube</button></a>
-                <a href="https://github.com/corporal1chicken/our-first-egg"><button class="gh-btn">GitHub</button></a>
-                <a href="https://corporalchicken.itch.io/our-first-egg"><button class="it-btn">(v1) Itch.io</button></a>
+                <a href="https://www.youtube.com/playlist?list=PLWUHEaMTtDoHS7ipke7ca7oxRGoZvP9HI"><button class="link-btn yt-btn">(v1) YouTube</button></a>
+                <a href=""><button class="link-btn yt-btn">(v2) YouTube</button></a>
+                <a href="https://github.com/corporal1chicken/our-first-egg"><button class="link-btn gh-btn">GitHub</button></a>
+                <a href="https://corporalchicken.itch.io/our-first-egg"><button class="link-btn it-btn">(v1) Itch.io</button></a>
             </div>
             
-
             <div class="entries" id="section-1">
                 <hr width="1000px">
                 <h2>15/02/26: Commit 1 - Setup</h2>
                 <p>This was just making the foundations of the game. First set up the camera. Im thinking the camera is facing a corner, at an angle. Added a world environment, some basic box meshes and now there’s something to look at. Then made a hover and interact system. I made a quick test version beforehand so this was fairly straightforward. Something happens when you start hovering, exit hovering and click an item. Hover text appears so you know what you’re looking at and that’s it. Short and simple. I did also model a crate, that I think looks pretty decent. It’s basic, only low poly but if it works, it works. Pretty successful first day if you ask me.</p>
             </div>
 
-
             <div class="entries" id="section-2">
                 <hr width="1000px">
                 <h2>16/02/26: Commit 2 - Chicken Logic Start</h2>
                 <p>Started on the main loop. Click a placeholder cube and something spawns. Very simple and basic. Also made an interactable class, makes it easier to add stuff just to interactables. Imported that crate I made yesterday and made a hover effect for it. Not proud of that hover effect since from afar it just looks like dashed lines but it works. I didn’t do much, I’m trying to plan internally how I’m going to do it. This was a shorter commit but I don’t want to rush 3D.</p>
             </div>
-
 
             <div class="entries" id="section-3">
                 <hr width="1000px">
@@ -79,14 +75,12 @@
                 <video src="videos/project-4/commit-3.mp4" controls muted></video>
             </div>
 
-
             <div class="entries" id="section-4">
                 <hr width="1000px">
                 <h2>17/02/26: Commit 4 - Environment + Crate Logic</h2>
                 <p>Made the environment look a bit nicer. The large crate and rack were made some time ago so I figured I’ll just reuse it. I quite like the colourless of them and the bright world environment. I’ll probably lower the colour of everything though. I made it so hovering over the crate will slide it out, looks cool but present some bugs if you do it quickly. Still haven’t fixed egg tweening but that’s for another time. It could possibly be the recording because it looked fine for me when I recorded the footage below but the video says it isn’t. Changed up egg tweening and manager a bit, everything is a little more separated. When the egg is sent to the crate, the crate’s value increases. It is a small thing but I love how the 3D label looks on the crate. If the egg is what the crate accepts, then the full value of the egg is added. Otherwise it is halved. I think I’m close to finishing, somehow. Wasn’t recorded but I tried modelling a chicken, it was going well till I got to the head. I’ve got to implement selling crates, main menu and some other small stuff probably..</p>
                 <video src="videos/project-4/commit-4.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-5">
                 <hr width="1000px">
@@ -95,14 +89,12 @@
                 <video src="videos/project-4/commit-5.mp4" controls muted></video>
             </div>
 
-
             <div class="entries" id="section-6">
                 <hr width="1000px">
                 <h2>18/02/26: Commit 6 - Small Additions</h2>
                 <p>This was a smaller commit but I think I’m close to the end. Added a sell all button, self explanatory. Sell receipts pop up above each crate which I think look so good. Simple but it works., A UI element telling you whether you have an egg held or not, clarity. Added some more racks to fill in the environment. I’ve decided it’s too hard for me to model a chicken. I can do everything until the head, since I’m using a cube with a subdivision surface modifier for the base, I cannot figure out how to model the head without it looking stuck on. If I figure out how to model a chicken, I’ll add that otherwise I’ll probably just go the easy route and make like a cardboard box or something where the egg flies out of. Still haven’t fixed the weird tweening, so that’s something to do. Other than upgrades (which will be kept super simple) and the chicken dilemma, I’m more or less done. This feels much more complete than RPS and Egg Game ever was, but 3D. Upgrades will look more or less like how it did in Egg Game in terms of how it’s made. I won’t do multiple upgrades, just 3-4 things. Definitely not happy with the code, it’s messy and there’s so many signals. What I’ll likely do is make everything I’ve mentioned already, then refactor everything then have 1 last session where it’s last minute polish/change then I think it’s done. It’s not a complex project but I love it, it’s so cool :D</p>
                 <video src="videos/project-4/commit-6.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-7">
                 <hr width="1000px">
@@ -111,14 +103,12 @@
                 <video src="videos/project-4/commit-7.mp4" controls muted></video>
             </div>
 
-
             <div class="entries" id="section-8">
                 <hr width="1000px">
                 <h2>18/02/26: Commit 8 - Assets + Upgrades</h2>
                 <p>Finally, all the assets are done. Made a crate from where the eggs fly out from and the egg itself. Added upgrades. They’re very simple but it works, no branching upgrades since it doesn’t need to be complex. More storage gives +6 eggs to all crates. Auto sell (which I actually didn’t make correctly) is supposed to sell when the crate is full but it sells every time it’s clicked. Oh and made it so the crate visually shows how many eggs are in the crate. Looks cool, I’ll probably add an animation for it or something so it looks a bit cleaner. Other than that, I’m more or less done. I’ve got to add a couple more things, fix some bugs and that’s it. Damn 3 commits in 1 day too.</p>
                 <video src="videos/project-4/commit-8.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-9">
                 <hr width="1000px">
@@ -127,13 +117,11 @@
                 <video src="videos/project-4/commit-9.mp4" controls muted></video>
             </div>
 
-
             <div class="entries" id="section-10">
                 <hr width="1000px">
                 <h2>20/02/26: Commit 10 - Final Polish</h2>
                 <p>That’s Our First Egg done. Game can be completed in around 5 minutes, there's an ending screen too. I added a few things but other than that this is done.</p>
             </div>
-
 
             <div class="entries" id="section-11">
                 <hr width="1000px">
@@ -141,54 +129,47 @@
                 <p>This was so fun to make, much more than RPS/Egg Game and Dispatch. Total time was roughly 12 hours to make this, excluding modelling assets. Overall I’m pretty happy with how it turned out. There’s one thing that’s missing and that’s sounds. I can’t really find any website for sounds so that sucks. It’s weird that the entire game is mute but oh well. Oh, the tween issue was just the editor, the exported version is completely fine. I think it’s a bit repetitive just sorting eggs for 5 minutes straight, so I could’ve added some differentiation. In terms of 3D, I thought it’ll be much more complex. I don’t like the code, everything rests in 2 places really, the egg and the crate. So one side will reach over into the other to do something then there’s weird behaviour. Oh well, it’s finished now.</p>
             </div>
 
-
             <div class="entries" id="section-12">
                 <hr width="1000px">
                 <h2>05/03/26: Commit 11 - Core Gameplay Changes</h2>
                 <p>I am back for Our First Egg v2. Making another game wasn’t exciting so I came back to this because I really enjoyed making it. So I changed the entire gameplay loop and broke everything else. The biggest issue from v1 was that it is repetitive. Click an egg and it always goes to the same crate. But now each crate has an “order”. Each order randomly picks one of the 4 egg types, and is from size 2-5. So each crate no longer only accepts 1 type of egg, instead you fill up the order. I think this is a lot better, I plan to add a lot more egg types to make it more interesting. But now that the loop has changed, the upgrades are not relevant and a lot of the code is commented out so I’ll have to clean that up. I’m exciting to make v2 :D </p>
-                <video src="videos/project-4/commit 11.mp4" controls muted></video>
+                <video src="videos/project-4/commit-11.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-13">
                 <hr width="1000px">
                 <h2>06/03/26: Commit 12 - Egg Types and Bin</h2>
                 <p>Following on from yesterday’s changes, I just updated some more stuff. Egg types now use the same .json file as crates instead of that @export variable it used to have. I changed all the egg types, got rid of the old 4 and now it uses colours of the rainbow. There is 10 in total. Changed the order text to use emojis but there aren’t emojis for some so this may be reverted back to text, I considered using images which might be better because I do want to add settings like my previous projects had. Also added a bin. Because there are now 10 egg types, some of the eggs you get aren’t needed for any order so now you can discard them for half its value.</p>
-                <video src="videos/project-4/commit 12.mp4" controls muted></video>
+                <video src="videos/project-4/commit-12.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-14">
                 <hr width="1000px">
                 <h2>08/03/26: Commit 13 - Crate Design Changes</h2>
                 <p>This was a smaller commit, and everything in the future will be less because I am making another game. This one is going to be a side thing I do every now and again. So I just changed some stuff about the crates. Just how the Label3Ds that display the information are. I also changed 1 upgrade, bigger orders. Order size increase from 2-4 to 4-7. Replaces more storage. Each egg in the crate shows it’s multiplier. If the incorrect egg is in the crate, it’ll show 0.5x above, and if it is not then it’ll show 1x.</p>
-                <video src="videos/project-4/commit 13.mp4" controls muted></video>
+                <video src="videos/project-4/commit-13.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-15">
                 <hr width="1000px">
                 <h2>13/03/26: Commit 14 - Pallet Rounds</h2>
                 <p>I once again changed the core loop. So going off the crate orders, I made it so now there’s a pallet with all the eggs shuffled needed for the crates, so you have to sort them. Once you sell a crate, you don’t get a new order until all eggs are sold. This is a lot better and what I wanted to do originally for v1, so like there’ll be 7 random eggs and you’d sort them but I didn’t know how to make it so I’m glad I was able to do it here. That might be v2 done? Other than some smaller additions and fixing upgrades, I’ve added everything I wanted to. I will probably end up adding save persistence to some capacity though I’m not sure.</p>
-                <video src="videos/project-4/commit 14.mp4" controls muted></video>
+                <video src="videos/project-4/commit-14.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-16">
                 <hr width="1000px">
                 <h2>14/03/26: Commit 15 - Order Streaks and Visual Changes</h2>
                 <p>So I added streaks for the orders. If you place the eggs in the crate in the order displayed, it sells for 1.2x. If its incorrect then the streak is broken and it goes back to 1x. Speaking of those eggs, they now visually fade out when selling which looks so much better. Ended up using tweens instead of an animation player since it wasn’t working properly. The pallet now has a couple of extra eggs, makes the bin more useful. Changed a ton of the UI too. Main menu code was rewritten a bit to be less duplicated, and just generally changed some stuff like the how to play screen, I also removed the sell all button because it is not needed anymore. The code is now very messy in multiple areas so before I finish v2, I’m going to rewrite everything so that it’s much clearer.</p>
-                <video src="videos/project-4/commit 15.mp4" controls muted></video>
+                <video src="videos/project-4/commit-15.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-17">
                 <hr width="1000px">
                 <h2>14/03/26: Commit 16 - Crate and Manager Rewrite</h2>
                 <p>My brain is started to become fried of this game so this is will be the penultimate commit. This was just rewriting some logic, mainly the crate. However this did present 2 new bugs which are big enough that I've got to fix them. So I've got to fix them, fix upgrades and finish 2 models and I'm done v2. My plan is to finish this, take a few days away from Godot then come back and start a new game which I've got an idea for.</p>
-                <video src="videos/project-4/commit 16.mp4" controls muted></video>
+                <video src="videos/project-4/commit-16.mp4" controls muted></video>
             </div>
-
 
             <div class="entries" id="section-18">
                 <hr width="1000px">
@@ -196,20 +177,17 @@
                 <p>That’s v2 done. Finally, my brain was starting to get fried. This is completely different from v1 and I love it. Fixed the 2 bugs, remade all upgrades (that was a headache to do) and some minor polish things. Ironically, this can be completed quicker than v1, in around 3 mins but at least its more fun to do so. I’m taking a break from Godot.</p>
             </div>
 
-
             <div class="entries" id="section-19">
                 <hr width="1000px">
                 <h2>v2 Review</h2>
                 <p>I think v2 turned out great. Towards the end when it become mainly polish and bug fixes, it wasn't as fun because I had to redo or remove a ton of stuff. However in terms of gameplay, this is a lot better than v1. This is what my next game would've been, except I would've had some AI in there but I figured I can just update this one instead of essentially remaking the entire game. Biggest issue I had with v2 are race conditions. So something might happen before something else and it either looked bad or it caused a bug. It's what happened with the crate, a new order was created before it's sell animation could finish locking it into the idle state forever. So hopefully the next game is clearer. My favourite part of v2 has to be the crates, they levelled up so much and the code is also a lot clearer. I do like the upgrades though they do just come down to making the number bigger. Overall, I think the game is complete after v2 but only in terms of gameplay, I would've preferred to do more polish in some areas especially when it comes to interactions.</p>
             </div>
 
-
             <div class="entries" id="section-20">
                 <hr width="1000px">
                 <h2>Project Review</h2>
                 <p>Overall, this game was a lot of fun to make. I didn't experience any major bugs, except the tweening bugs in v1 and the race conditions in v2. My editor was also being really weird during v2 so that was annoying. There are a couple of things I would've like to add but didn't. First is save persistence, I don't think it was necessary because the game is only like 5 minutes. Second thing is I should've done a lot more testing. It's technically possible to softlock the game because if you bin all the eggs for example, then the game doesn't know that so you can't progress. There's some minor polish stuff I would've like to add but I think it's best to leave it where it is for now. If I do come back for v3, it'll be very minor stuff and architectural stuff changes, not the core gameplay. I’ll keep a list of some changes I’ll make later on. I don’t think I’ll make anything for a few weeks now.</p>
             </div>
-
 
             <div class="entries" id="section-21">
                 <hr width="1000px">
